@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test", 
+    "start": "node index.js", 
+    "prestart": "nvm use v8.6.0"
   },
   "repository": {
     "type": "git",
