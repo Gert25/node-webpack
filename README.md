@@ -17,4 +17,15 @@
 
  `npm install`
   
-  
+  # Running the project 
+   
+   open up your console/terminal in the project's root directory. Type the following command in the terminal/console
+
+   `npm start`
+
+   This will start the development server for the project
+   
+   *NOTE: That the application will attempt to run nvm (Node version Manager) before starting up the server. If you don't have nvm installed I suggest installing it https://github.com/creationix/nvm/blob/master/README.md. NOTE THIS IS ONLY WORK FOR LINUX/MACOS USERS*
+
+   
+
