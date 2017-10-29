@@ -1,0 +1,22 @@
+{
+  "name": "webpack_node",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gert25/node-webpack.git"
+  },
+  "author": "Gert van Rooyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gert25/node-webpack/issues"
+  },
+  "homepage": "https://github.com/Gert25/node-webpack#readme",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
+}
