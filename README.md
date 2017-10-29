@@ -25,7 +25,9 @@
 
    This will start the development server for the project
    
-   *NOTE: That the application will attempt to run nvm (Node version Manager) before starting up the server. If you don't have nvm installed I suggest installing it https://github.com/creationix/nvm/blob/master/README.md. NOTE THIS IS ONLY WORK FOR LINUX/MACOS USERS*
-
+   *NOTE: That the application will attempt to run nvm (Node version Manager) before starting up the server. If you don't have nvm installed I suggest installing it https://github.com/creationix/nvm/blob/master/README.md. NOTE THIS WILL ONLY WORK FOR LINUX/MACOS USERS*
    
+   ### NVM FOR WINDOWS
+        If you have a windows machine I suggest ussing the following link to install NVM for windows [NVM FOR WINDOWS](https://github.com/coreybutler/nvm-windows)
+
 
