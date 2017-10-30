@@ -9,13 +9,16 @@
 
  *install webpack globaly on your machine* 
 
- `npm install -g webpack`
+        npm install -g webpack
+Install Babel globaly. Babel will is needed to build out our project's configurations. [Babel](https://babeljs.io/)
+        
+        npm install -g babel-cli
 
- This is to ensure wepback will run in your. 
 
- *Install the rest the project using node package manager*
 
- `npm install`
+ *Install the rest the project dependencies*
+
+        npm install 
   
   # Running the project 
    
@@ -34,4 +37,19 @@ If your sure you are using the right version of node that is required for theis 
 If you have a windows machine I suggest ussing the following link to install NVM for windows [NVM FOR WINDOWS](https://github.com/coreybutler/nvm-windows)
 
 ## Documentation
-    
+### Install
+Install jsdoc globaly 
+
+                npm install -g jsdoc
+### Running the project
+        npm run doc
+This will run the jsdoc using the configuration specified in the JSDoc.config.json file. The application will document all the files in the app folder.
+
+### Todo
+* Install linter for documentation [ESLINT](https://eslint.org/docs/rules/valid-jsdoc)
+
+
+ 
+
+
+
