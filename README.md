@@ -23,11 +23,14 @@
 
    `npm start`
 
-   This will start the development server for the project
+This will start the development server for the project
    
    *NOTE: That the application will attempt to run nvm (Node version Manager) before starting up the server. If you don't have nvm installed I suggest installing it https://github.com/creationix/nvm/blob/master/README.md. NOTE THIS WILL ONLY WORK FOR LINUX/MACOS USERS*
-   
-   ### NVM FOR WINDOWS
-        If you have a windows machine I suggest ussing the following link to install NVM for windows [NVM FOR WINDOWS](https://github.com/coreybutler/nvm-windows)
+
+If your sure you are using the right version of node that is required for theis project you can disable the prestart script by commenting out the prestart property `"prestart": "nvm use v8.6.0"` in package.json file 
+
+
+## NVM FOR WINDOWS
+If you have a windows machine I suggest ussing the following link to install NVM for windows [NVM FOR WINDOWS](https://github.com/coreybutler/nvm-windows)
 
 
