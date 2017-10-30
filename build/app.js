@@ -69,15 +69,26 @@
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__app_component__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__app___ = __webpack_require__(1);
 
 
+console.log("Applicatoin", __WEBPACK_IMPORTED_MODULE_0__app___)
 console.log("Webpack packed")
-document.body.appendChild(Object(__WEBPACK_IMPORTED_MODULE_0__app_component__["a" /* default */])())
+document.body.appendChild(component())
 
 
 /***/ }),
 /* 1 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__component__ = __webpack_require__(2);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "component", function() { return __WEBPACK_IMPORTED_MODULE_0__component__["component"]; });
+
+
+/***/ }),
+/* 2 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -88,7 +99,7 @@ document.body.appendChild(Object(__WEBPACK_IMPORTED_MODULE_0__app_component__["a
  * @return  {Object} return a Dom Element
  */
 
-/* harmony default export */ __webpack_exports__["a"] = (( text = 'Hallo World', color ='red') => {
+/* unused harmony default export */ var _unused_webpack_default_export = (( text = 'Hallo World', color ='red') => {
       let element  =  document.createElement('div')
       
       element.innerHTML = text
